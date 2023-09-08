@@ -1,0 +1,28 @@
+In order to run the python notebook, open it in jupyter notebook and run it.
+
+Dependencies:
+
+matplotlib
+numpy
+
+if you don't have an environment like this right now, save the below text as:
+Tim-hw1.yml 
+and from its directory run:
+
+conda env create -f Tim-hw1.yml
+conda activate Tim-hw1
+jupyter notebook
+
+then navigate to the notebook, open, and run it.
+
+
+YML TEXT:
+-------------------------
+
+name: Tim-hw1
+
+dependencies:
+  - python>=3.6
+  - jupyter>=1.0
+  - numpy>=1.16
+  - matplotlib>=2.1
